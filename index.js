@@ -10,8 +10,9 @@ const message = {
   text: 'Hello World!'
 };
 
-client.pushMessage('jiahao1111', message)
-  .then(() => {
+client.pushMessage('U12cf5a7d53acb513bbe5498aeb1b46a5', message)
+  .then((res) => {
+    console.log(res)
   })
   .catch((err) => {
     console.log(err)
